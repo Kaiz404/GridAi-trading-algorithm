@@ -1,0 +1,33 @@
+{
+  "name": "gridai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm index.ts",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.13.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "typescript-eslint": "^8.29.0",
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
