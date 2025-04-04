@@ -7,8 +7,8 @@ GridAI is an automated grid trading bot built for the Solana blockchain. It crea
 - **Automated Grid Trading**: Automatically executes trades when price crosses predefined grid levels
 - **24/7 Operation**: Designed to be deployed on Google App Engine for continuous trading
 - **Jupiter DEX Integration**: Utilizes Jupiter's API for optimal token swaps on Solana
-- **MongoDB Database**: Records and tracks all trades, grid configurations and performance
-- **Flexible Configuration**: Create custom grids with adjustable price ranges and grid counts
+- **MongoDB Database**: Records and tracks all trades and grid configurations
+- **Flexible Configuration**: Create custom grids with adjustable price ranges and grid counts using premade functions
 - **Multiple Trading Pairs**: Supports various token pairs on Solana
 
 ## Architecture
